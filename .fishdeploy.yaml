@@ -10,8 +10,9 @@ stage:
   start:
     - npm run build
   end:
-    - echo "prepare to install"
-#     - rm -rf /root/test/deploy/*
-#     - cp dist/* /root/test/deploy/
+    - rm -rf /root/ros2/dev/ros2cn/*
+    - cp -r docs/.vuepress/dist/* /root/ros2/dev/ros2cn/
+    - rm -rf /root/ros2/master/ros2cn/*
+    - cp -r docs/.vuepress/dist/* /root/ros2/master/ros2cn/
 # 超时
 timeout: 200
