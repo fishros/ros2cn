@@ -10,7 +10,8 @@ stage:
   start:
     - npm run build
   end:
-    - rm -rf /root/test/deploy/*
-    - cp dist/* /root/test/deploy/
+    - echo "prepare to install"
+#     - rm -rf /root/test/deploy/*
+#     - cp dist/* /root/test/deploy/
 # 超时
 timeout: 200
