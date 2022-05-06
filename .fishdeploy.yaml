@@ -2,6 +2,7 @@
 # 所有的操作都在工程目录进行
 # os / docker 
 mode: os
+env: nodejs
 name: ros2cn
 tag: main
 stage:
