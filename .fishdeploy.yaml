@@ -4,6 +4,8 @@
 mode: os
 env: nodejs
 name: ros2cn
+tag: main
+parallel: true
 stage:
   prepare:
     - npm run install-dep
