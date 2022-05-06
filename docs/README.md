@@ -15,13 +15,13 @@ features:
   - title: 中文文档
     details: 针对性开发的校准系统，由鱼香ROS-ROS2开源小组成员及机器人爱好者提供
   - title: 社区交流
-    details: 微信群:公众号鱼香ROS内 QQ群:139707339 
+    details: 微信群:公众号鱼香ROS内 千人QQ群:139707339 
 footer: 署名-非商业性使用-相同方式共享 3.0 中国大陆 (CC BY-NC-SA 3.0 CN) | Copyright © 2021-2022 fishros
 ---
 
 ## ROS2
 
-ROS2用于构建机器人的第二代机器人操作系统（Robot Operating System），其包含了大量的机器人相关软件库和工具集。
+ROS2是用于构建机器人的第二代机器人操作系统（Robot Operating System），其包含了大量的机器人相关软件库和工具集。
 
 ## 贡献
 
