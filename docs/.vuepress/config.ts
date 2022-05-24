@@ -1,15 +1,14 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 import {navbarConfig} from './configs/navbar'
+import {hopeTheme} from 'vuepress-theme-hope'
 
 export default defineUserConfig<DefaultThemeOptions>({
   // 站点配置
   lang: 'en-ZH',
   title: 'ROS2 中文网',
   description: 'ROS是用于构建机器人应用的软件库和工具集',
-
   // 主题和它的配置
-  theme: '@vuepress/theme-default',
   head: [
     ['link', {rel: 'icon', href: '/images/ros2_logo_m.png'}],
     ["script",
@@ -29,8 +28,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     navbar: navbarConfig,
     contributorsText: '贡献者' ,
     lastUpdatedText: '上次更新时间',
-    sidebarDepth: 3
-  },
+    sidebarDepth: 3,
+  }
   // extendsMarkdown: md =>{
   //   md.use(require("markdown-it-disable-url-encode"));
   // }
